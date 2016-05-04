@@ -1,0 +1,25 @@
+{
+  "name": "recursively_find_property",
+  "version": "1.0.0",
+  "description": "recursively find property in object",
+  "main": "recursivelyFindPropertyInObject.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilia-luk/recursivelyFindPropertyInObject.git"
+  },
+  "keywords": [
+    "recursive",
+    "object",
+    "javascript",
+    "js"
+  ],
+  "author": "Ilia luk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilia-luk/recursivelyFindPropertyInObject/issues"
+  },
+  "homepage": "https://github.com/ilia-luk/recursivelyFindPropertyInObject#readme"
+}
