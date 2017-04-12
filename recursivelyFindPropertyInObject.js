@@ -5,7 +5,7 @@ function recursivelyFindPropertyInObject(dataObject, requiredProp) {
       if (dataObject.hasOwnProperty(requiredProp)) {
         return { [requiredProp]: dataObject[requiredProp] };
       } else if (typeof dataObject[property] === 'object') {
-        check = findPropertyInObject(dataObject[property], requiredProp);
+        check = recursivelyFindPropertyInObject(dataObject[property], requiredProp);
         if (check && check.hasOwnProperty(requiredProp)) {
           return check;
         }
